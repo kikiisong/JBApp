@@ -13,6 +13,13 @@
             #end
         </ol>
     </div>
+    <div>
+        <label for="addEmployer">Add new: </label>
+        <input type="text" placeholder="Required" name="name" id="name"/>
+        <input type="text" name="sector" id="sector"/>
+        <input type="text" name="summary" id="summary"/>
+        <button type="button" id="addButton">&#10004</button>
+    </div>
     #end
-<script src="js/employers.js"></script>
+<script type="module" src="js/employers.js"></script>
 #parse("public/bottom.vm")
